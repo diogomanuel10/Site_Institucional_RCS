@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    @apply bg-navy text-cream font-body antialiased;
+  }
+
+  /* Foco de teclado sempre visível. */
+  :focus-visible {
+    outline: 2px solid theme("colors.gold.DEFAULT");
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: theme("colors.gold.DEFAULT");
+    color: theme("colors.navy.deep");
+  }
+}
+
+@layer components {
+  /* Título de secção em Oswald condensada e maiúsculas — voz de placard. */
+  .eyebrow {
+    @apply font-display uppercase tracking-[0.28em] text-gold text-xs font-semibold;
+  }
+
+  .section-title {
+    @apply font-display uppercase tracking-tight text-4xl sm:text-5xl font-semibold leading-[0.95];
+  }
+
+  /* Filete dourado a dividir/assinar secções. */
+  .gold-rule {
+    height: 2px;
+    background-image: theme("backgroundImage.gold-rule");
+  }
+
+  /* Números em estilo marcador para estatísticas e resultados. */
+  .scoreboard {
+    @apply font-display tabular-nums tracking-tight;
+    font-feature-settings: "tnum" 1;
+  }
+
+  .link-underline {
+    @apply relative inline-flex items-center gap-1 transition-colors;
+  }
+}
