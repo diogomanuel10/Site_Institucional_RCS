@@ -1,0 +1,8 @@
+<!-- PLACEHOLDER: substituir pelo emblema oficial vetorial do RCS quando disponível. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" width="64" height="72">
+  <path d="M4 8 L32 3 L60 8 V38 C60 54 47 64 32 69 C17 64 4 54 4 38 Z" fill="#0d1b2e" stroke="#e0b431" stroke-width="2.5"/>
+  <path d="M20 18 L24 24 L32 15 L40 24 L44 18 L42 30 H22 Z" fill="#e0b431"/>
+  <rect x="21" y="31" width="22" height="3.5" rx="1" fill="#e0b431"/>
+  <circle cx="32" cy="49" r="11" fill="#f5f0e6" stroke="#0d1b2e" stroke-width="1.2"/>
+  <path d="M32 38 C28 44 28 54 32 60 M23 44 C29 47 35 47 41 44 M23 55 C28 51 36 51 41 55" stroke="#c8a96e" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+</svg>
