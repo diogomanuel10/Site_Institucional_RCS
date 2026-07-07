@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Match, Team } from "@/lib/rcsgestao/types";
 import { formatDateShort, formatTime } from "@/lib/format";
-import { Crest } from "@/components/ui/Crest";
+import { CrestMark } from "@/components/ui/Crest";
 
 /**
  * Jogos & resultados, com filtro por escalão.
@@ -131,7 +131,7 @@ function MatchHead({ teamName, extra }: { teamName: string; extra: string }) {
 function Matchup({ opponent, home }: { opponent: string; home: boolean }) {
   const rcs = (
     <span className="flex items-center gap-2">
-      <Crest className="h-6 w-auto" title="RCS" />
+      <CrestMark className="h-6 w-auto" title="RCS" />
       <span className="font-display font-semibold text-cream">RCS</span>
     </span>
   );
