@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/Button";
-import { Crest } from "@/components/ui/Crest";
+import { Crest, CrestMark } from "@/components/ui/Crest";
 import { getNextMatch, getTeams } from "@/lib/rcsgestao/client";
 import { formatDateLong, formatTime } from "@/lib/format";
 import { club } from "@/lib/data/club";
@@ -12,9 +12,8 @@ export async function Hero() {
     <section className="relative overflow-hidden bg-navy-deep">
       {/* Marca de água — motivo do emblema / campo */}
       <Crest
-        aria-hidden="true"
+        decorative
         className="pointer-events-none absolute -right-16 top-1/2 hidden h-[130%] w-auto -translate-y-1/2 opacity-[0.06] md:block"
-        title=""
       />
       <div
         aria-hidden="true"
@@ -101,11 +100,11 @@ function TeamBadge({ name, highlight }: { name: string; highlight?: boolean }) {
     <div className="flex flex-col items-center gap-2">
       <div
         className={`flex h-16 w-16 items-center justify-center rounded-full ${
-          highlight ? "bg-gold/15" : "bg-white/5"
+          highlight ? "" : "bg-white/5"
         }`}
       >
         {highlight ? (
-          <Crest className="h-12 w-auto" title="RCS" />
+          <CrestMark className="h-16 w-auto" title="RCS" />
         ) : (
           <span className="font-display text-xl text-cream/60">
             {name.slice(0, 2).toUpperCase()}

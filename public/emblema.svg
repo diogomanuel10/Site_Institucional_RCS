@@ -1,8 +1,39 @@
-<!-- PLACEHOLDER: substituir pelo emblema oficial vetorial do RCS quando disponível. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 72" width="64" height="72">
-  <path d="M4 8 L32 3 L60 8 V38 C60 54 47 64 32 69 C17 64 4 54 4 38 Z" fill="#0d1b2e" stroke="#e0b431" stroke-width="2.5"/>
-  <path d="M20 18 L24 24 L32 15 L40 24 L44 18 L42 30 H22 Z" fill="#e0b431"/>
-  <rect x="21" y="31" width="22" height="3.5" rx="1" fill="#e0b431"/>
-  <circle cx="32" cy="49" r="11" fill="#f5f0e6" stroke="#0d1b2e" stroke-width="1.2"/>
-  <path d="M32 38 C28 44 28 54 32 60 M23 44 C29 47 35 47 41 44 M23 55 C28 51 36 51 41 55" stroke="#c8a96e" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Emblema do Real Clube Senhorense">
+  <defs>
+    <path id="arc-top" d="M 100,100 m -80,0 a 80,80 0 1,1 160,0" fill="none"/>
+    <path id="arc-bottom" d="M 100,100 m -78,0 a 78,78 0 1,0 156,0" fill="none"/>
+  </defs>
+
+  <circle cx="100" cy="100" r="99" fill="#0d1b2e"/>
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#e0b431" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="67" fill="#efc23e"/>
+  <circle cx="100" cy="100" r="67" fill="none" stroke="#0d1b2e" stroke-width="3"/>
+  <circle cx="100" cy="100" r="64" fill="none" stroke="#e0b431" stroke-width="1.2"/>
+
+  <text font-family="&quot;Arial Narrow&quot;, Oswald, system-ui, sans-serif" font-weight="700" fill="#e0b431" font-size="20" letter-spacing="3">
+    <textPath href="#arc-top" startOffset="50%" text-anchor="middle">REAL CLUBE</textPath>
+  </text>
+  <text font-family="&quot;Arial Narrow&quot;, Oswald, system-ui, sans-serif" font-weight="700" fill="#e0b431" font-size="20" letter-spacing="4">
+    <textPath href="#arc-bottom" startOffset="50%" text-anchor="middle">SENHORENSE</textPath>
+  </text>
+
+  <path d="M 20,100 l 5,-5 5,5 -5,5 z" fill="#e0b431"/>
+  <path d="M 170,100 l 5,-5 5,5 -5,5 z" fill="#e0b431"/>
+
+  <g stroke="#0d1b2e" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M 66,96 L 62,74 L 78,86 L 100,66 L 122,86 L 138,74 L 134,96 Z" fill="#e0b431"/>
+    <rect x="66" y="96" width="68" height="7" fill="#e0b431"/>
+  </g>
+  <circle cx="62" cy="72" r="3.5" fill="#0d1b2e"/>
+  <circle cx="100" cy="63" r="3.5" fill="#0d1b2e"/>
+  <circle cx="138" cy="72" r="3.5" fill="#0d1b2e"/>
+  <circle cx="78" cy="84" r="2.6" fill="#0d1b2e"/>
+  <circle cx="122" cy="84" r="2.6" fill="#0d1b2e"/>
+
+  <circle cx="100" cy="128" r="24" fill="#ffffff" stroke="#0d1b2e" stroke-width="2"/>
+  <g fill="none" stroke="#0d1b2e" stroke-width="2" stroke-linecap="round">
+    <path d="M 100,104 C 92,116 92,140 100,152"/>
+    <path d="M 79,116 C 92,122 108,122 121,116"/>
+    <path d="M 79,140 C 90,134 110,134 121,140"/>
+  </g>
 </svg>
