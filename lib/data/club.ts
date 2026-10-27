@@ -1,7 +1,7 @@
 /**
  * Dados institucionais do clube.
  *
- * ⚠️ PLACEHERS: contactos, morada, redes e estatísticas ainda por confirmar com
+ * ⚠️ PLACEHOLDERS: contactos, morada, redes e estatísticas ainda por confirmar com
  * o clube. Substituir pelos valores reais antes de produção.
  */
 

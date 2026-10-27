@@ -88,5 +88,3 @@ Marcado com `TODO(conteúdo real)` / `PLACEHOLDER` no código:
 - Escalões verdadeiros, contactos, morada e redes sociais (`lib/data/club.ts`)
 - Estatísticas do clube, próximos jogos e resultados reais
 - Fotos reais (equipa, pavilhão, jogo)
-- **Emblema oficial em SVG** (substituir `components/ui/Crest.tsx` e
-  `public/emblema.svg`)
